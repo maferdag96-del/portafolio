@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.imagen1{
+    margin-top: -50px;
+}
+
+section{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ 
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header{
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    
+   
+
+}
+.menu1{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-weight: 600px;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu{
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   padding-top: 40px;
+}
+.logo_menu{
+    background-image: url(../MEDIA/logo\ mafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: auto 0;
+    
+}
+.imagen1{
+    background-image: url(../MEDIA/logo\ mafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50%;
+    background-position:-50px;
+    height: 800px;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    
+}
+.nombres{
+    color: aliceblue;
+    font-size: 70px;
+    padding-top: 220px;
+    margin-left: 650px;
+
+}
+.apellidos{
+    color: aliceblue;
+    font-size: 80px;
+    margin-top: -20px;
+    margin-left: 710px;
+   
+}
+h2{
+    color: aliceblue;
+    font-size: 25px; 
+    margin-left: 980px; 
+   
+}
+h3{
+    color: aliceblue;
+    font-size: 20px;  
+    margin-left: 935px;
+}
+.presentacionpersonal{
+    font-size: 20px;
+     color: aliceblue;
+    padding-top: 90px;
+    padding-left: 800px;
+    text-align:justify;
+    margin-top: -20px;
+  
+}
+article{
+    margin-right: 10%;
+}
+main{
+    background-color: black;
+    width: 100%;
+    height: 2500px;
+    
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color:brown;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+.titulo_1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.cont_formulario{
+    background-color: brown;
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+   
+}
+
+.cont_formulario{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    width: 600px;
+    
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+input, textarea{
+
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    border-radius: 3px;
+    background-color: aliceblue;
+    padding: 7px 30px;
+    color: brown;
+
+}

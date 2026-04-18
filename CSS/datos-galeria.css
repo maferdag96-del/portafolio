@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.imagen1{
+    margin-top: -50px;
+}
+
+section{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img_tpq{
+    background-color: brown;
+    width: 280px;
+    height: 350px;
+    margin:10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+.img_tpq1{
+    background-color: brown;
+    width: 260px;
+    height: 467px;
+    margin:10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+.img_tpq2{
+    background-color: brown;
+    width: 280px;
+    height: 350px;
+    margin:10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+   
+}
+
+
+.t1{
+    background-image: url(../MEDIA/maqueta1.png);
+}
+.t2{
+    background-image: url(../MEDIA/pagina.jpeg);
+}
+.t3{
+    background-image: url(../MEDIA/google\ site.jpeg);
+}
+.t4{
+    background-image: url(../MEDIA/20260220-DÍA\ DE\ LA\ MUJER\ 8\ MARZO.png);
+}
+.t5{
+    background-image: url(../MEDIA/DIA\ DE\ LA\ SALUD.png);
+}
+.t6{
+    background-image: url(../MEDIA/20260306-DIA\ DEL\ HOMBRE.png);
+}
+.t7{
+    background-image: url(../MEDIA/20260414-WEBINAR\ -\ TALENTO\ INTELIGENTE.png);
+}
+.t8{
+    background-image: url(../MEDIA/20260317-TUTORÍAS\ ECAYE\ 2.png);
+}
+.t9{
+    background-image: url(../MEDIA/20260219-\ TUTORIAS\ DE\ CIENCIAS\ BASICAS\ DE\ INGIENERIA.jpg);
+}
+.t10{
+    background-image: url(../MEDIA/museo.jpeg);
+}
+.t11{
+    background-image: url(../MEDIA/cuadra.jpeg);
+}
+.t12{
+    background-image: url(../MEDIA/arboles.jpeg);
+}
+.t13{
+    background-image: url(../MEDIA/astronauta.jpeg);
+}
+.t14{
+    background-image: url(../MEDIA/muñeca.jpeg);
+}
+
+.descripciones{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+}
+.t_desc{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#desc_t1:target{
+    display: flex;
+}
+#desc_t2:target{
+    display: flex;
+}
+#desc_t3:target{
+    display: flex;
+}
+#desc_t4:target{
+    display: flex;
+}
+#desc_t5:target{
+    display: flex;
+}
+#desc_t6:target{
+    display: flex;
+}
+#desc_t7:target{
+    display: flex;
+}
+#desc_t8:target{
+    display: flex;
+}
+#desc_t9:target{
+    display: flex;
+}
+#desc_t10:target{
+    display: flex;
+}
+#desc_t11:target{
+    display: flex;
+}
+#desc_t12:target{
+    display: flex;
+}
+#desc_t13:target{
+    display: flex;
+}
+#desc_t14:target{
+    display: flex;
+}
+
+.t_gr{
+    width: 600px;
+    height: 100vh;
+    background-color:#ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+.t_gr2{
+    width: 600px;
+    height: 100vh;
+    background-color:#ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.t_gr3{
+    width: 600px;
+    height: 100vh;
+    background-color:#ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 69%;
+}
+.tx_desc{
+    width: 550px;
+    background-color: brown;
+    padding-top: 350px;
+    padding-left: 30px;
+    text-align: justify;
+} 
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+   
+
+}
+.menu1{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    font-weight: 600px;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu{
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   padding-top: 40px;
+}
+.logo_menu{
+    background-image: url(../MEDIA/logo\ mafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: auto 0;
+}
+.imagen1{
+    background-image: url(../MEDIA/PORTADAS-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 135%;
+    background-position:-100;
+    height: 800px;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    
+}
+.nombres{
+    color: aliceblue;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-left: 30px;
+    margin-left: 670px;
+}
+.apellidos{
+    color: aliceblue;
+    font-size: 80px;
+    margin-top: -10px;
+    margin-left: 820px;
+}
+h2{
+    color: aliceblue;
+    font-size: 30px;  
+    margin-left: 990px; 
+    margin-top: -10px;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;  
+    margin-top: 5px;
+}
+.presentacionpersonal{
+     color: aliceblue;
+    padding-top: 90px;
+    padding-left: 800px;
+    text-align:justify;
+    
+}
+article{
+   
+    width: 100%;
+    text-align: right;
+    padding-right: 5%;
+}
+main{
+    background-color: black;
+    width: 100%;
+    height: 3500px;
+}
+.titulo_1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.text_sub{
+    margin-left: 550px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}

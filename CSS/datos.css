@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+   
+
+}
+.menu1{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    font-weight: 600px;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu{
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   padding-top: 40px;
+}
+.logo_menu{
+    background-image: url(../MEDIA/logo\ mafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: auto 0;
+}
+.imagen1{
+    background-image: url(../MEDIA/PORTADAS-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 135%;
+    background-position:-100;
+    height: 800px;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    
+}
+.nombres{
+    color: aliceblue;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.apellidos{
+    color: aliceblue;
+    font-size: 80px;
+    margin-top: -10px;
+}
+h2{
+    color: aliceblue;
+    font-size: 30px;   
+}
+p{
+    color: aliceblue;
+    font-size: 20px;  
+}
+.presentacionpersonal{
+     color: aliceblue;
+    padding-top: 90px;
+    padding-left: 800px;
+    text-align:justify;
+    
+}
+article{
+   
+    width: 100%;
+    text-align: right;
+    padding-right: 5%;
+}
+main{
+    background-color: black;
+    width: 100%;
+    height: 2750px;
+}
+.section_habi{
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 150px;
+    margin-left: -53%;
+    margin-top: 20px;
+    
+}
+.cuadro_fondo{
+    background-color: rgb(255, 255, 255);
+    width: 670px;
+    height: 450px;
+    margin-bottom: 140px;
+    margin-left: 40%;
+    padding-top: 5px;
+}
+.h2_habilidades{
+    font-size:60px;
+    margin: auto;
+    margin-top: -490px;
+    padding-left: 550px;
+}
+.parrafo_habilidades{
+    text-align: justify;
+    margin-left:400px;
+    padding: 50px;
+}
+.img1_habi{
+    background-image: url(../MEDIA/hgu.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 550px;
+    margin-left: 50px;
+
+}
+.section_habi2{
+   background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 150px;
+    margin-left: -53%;
+    margin-top: 20px;
+}
+.cuadro_fondo2{
+    background-color: rgb(255, 255, 255);
+    width: 670px;
+    height: 450px;
+    margin-bottom: 140px;
+    margin-left: 40%;
+    padding-top: 5px;
+}
+.h2_sofwore{
+    font-size:60px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-left: 675px;
+}
+.logo1{
+    background-image: url(../MEDIA/illustrator.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-left: 800px;
+    margin-top: -120px;
+}
+.logo2{
+    background-image: url(../MEDIA/photoshop.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-left: 800px;
+   
+}
+.logo3{
+    background-image: url(../MEDIA/canva.png);
+    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-top: -290px;
+   margin-left: 630px;
+}
+.logo4{
+    background-image: url(../MEDIA/figama.png);
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-top: -5px;
+   margin-left: 645px;
+}
+.logo5{
+    background-image: url(../MEDIA/fotos.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -190px;
+}
+.h2_sofwore2{
+    font-size:60px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-left: 50px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.p_sofware{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    margin-top: 10px;
+    list-style:circle;
+    margin-left: 70px;
+}
+.section_servicio{
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 450px;
+    margin-left: -53%;
+    
+    margin-top: 20px;
+    margin-right: 100%;
+}
+.cuadro_fondo3{
+    background-color: rgb(255, 255, 255);
+    width: 670px;
+    height: 400px;
+    margin-bottom: 140px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
+.orden_servico{
+   text-align: justify;
+   width: 400px;
+}
+.h2_servicio{
+    font-size:60px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-left: 50px;
+    
+}
+.servicio{
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.p_serv{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    margin-top: 10px;
+    list-style:circle;
+    text-align: left;
+    
+}
+.cont_serv{
+   margin-left: 620px;
+   margin-top: -230px;
+}
+footer{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
